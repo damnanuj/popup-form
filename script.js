@@ -16,11 +16,11 @@ const logBtn = document.querySelector(".btn");
 const formContainer = document.querySelector(".formContainer");
 const hider =document.querySelector(".xmark");
 logBtn.addEventListener("click", () => {
-    formContainer.classList.toggle("hidelogin");
+    formContainer.classList.remove("hidelogin");
 });
 
 // hider.addEventListener ("click", () => logBtn.click())
 
 hider.addEventListener("click", () => {
-    formContainer.classList.toggle("hidelogin")
+    formContainer.classList.add("hidelogin")
 })
