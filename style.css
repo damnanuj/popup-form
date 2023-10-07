@@ -1,7 +1,7 @@
 
 
 
-/*
+
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@
 .container{
     width: 100vw;
     height: 100vh;
-   
+    /* background-color: aqua; */
     justify-content: center;
     align-items: center;
     display: flex;
@@ -97,86 +97,3 @@ input{
 */
 
   
-form{
-    width: 380px;
-    height: auto;
-    /* background: green; */
-    background-color: rgba 0,0,0,0.3;
-    margin-right: 50px ;
-    margin-left: auto;
-    margin-top: 9%;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px silver;
-    overflow: hidden;
-}
-h2{
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid silver;
-}
-.container{
-    padding: 16px;
-}
-input[type=text], input[type=password]{
-    width: 100%;
-    margin: 8px 0px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    background-color: #f1f1f1;
-    border: 1px solid #ccc;
-}
-input[type=text]:focus{
-    outline: none;
-    background-color: #d3d3d3;
-}
-input[type=password]:focus{
-    outline: none;
-    background-color: #d3d3d3;}
-    
-#forgot-psw{
-    text-decoration: none;
-    font-size: 15px;
-    float: right;
-    color: #f1f1f1;
-    cursor: pointer;
-}
-#forgot-psw:hover{
-    color: #f28787;
-    /* color: darkmagenta; */
-}
-#login-btn{
-    font-size: 15px;
-    font-weight: bold;
-    width: 100%;
-    margin: 8px 0px;
-    padding: 12px 20px;
-    text-transform: uppercase;
-    background-image: linear-gradient(to right, #eb3349,#f45c43);
-    border: none;
-    cursor: pointer;
-    transition: 0.3s;
-    color: #fff;
-}
-
-#login-btn:hover{
-    background-image: linear-gradient(to right, #f45c43,#eb3349);
-}
-.member{
-    padding: 16px;
-    font-size: 15px;
-    color: white;
-    text-align: center;
-    background-color: rgba(0,0,0,0.4);
-}
-#signup-link{
-    text-decoration: none;
-    color: #f45c43;
-    cursor: pointer;
-}
-#signup-link:hover{
-    color: #6c818f;
-
-}
